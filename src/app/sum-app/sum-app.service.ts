@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class SumAppService {
 
-  private apiUrl = 'http://192.168.137.192:81/information';
+  private apiUrl = 'http://192.168.1.66:30002/information';
 
   constructor(private http: HttpClient) { }
 
