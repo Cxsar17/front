@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class FrontAppService {
 
-  private apiUrl = 'http://192.168.1.62:30001/api/machine-info';
+  private apiUrl = 'http://192.168.137.152:30001/api/machine-info';
 
   constructor(private http: HttpClient) { }
 
